@@ -1,0 +1,83 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-family: Barlow Semi Condensed;
+}
+
+@media only screen and (min-width: 748px){
+  .container-1, .container-2, .main{
+    display: flex;
+    overflow: visible;
+  }
+  .Kira-Whittle{
+    width: 35vmin;
+    flex: 1;
+  }
+}
+
+img{
+  margin-right: 20px;
+  float: left;
+  margin-top: 5px;
+}
+
+svg{
+  position: absolute;
+  top: 0;
+  right: 15%;
+  opacity: 60%;
+}
+
+.inline{
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px lightgrey;
+}
+
+.Daniel-clifford{
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(210, 46%, 95%);
+  position: relative;
+}
+
+.Jonathan-Walters{
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+}
+
+.Jeanette-Harmon{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+.Patrick-Abrams{
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(210, 46%, 95%);
+}
+
+.Kira-Whittle{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+.para{
+  opacity: 70%;
+}
+
+.verified-graduate{
+  opacity: 50%;
+}
+
+.intro{
+  line-height: 2px;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+  text-align: center;
+}
